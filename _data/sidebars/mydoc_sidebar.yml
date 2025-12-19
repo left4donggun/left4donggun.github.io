@@ -2,29 +2,21 @@
 
 entries:
 - title: sidebar
-  product: Jekyll Doc Theme
-  version: 6.0
+  product: Category
+  version: 
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
+  - title: Introduce
+    url: /index.html
+    output: web, pdf
+    type: homepage
 
   - title: OS
     output: web, pdf
     folderitems:
 
     - title: Fedora Workstation
-      url: /index.html
+      url: /fedora_workstation.html
       output: web, pdf
       type: homepage
 
